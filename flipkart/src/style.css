@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+
+body {
+    background-color: rgba(59, 131, 246, 0.093);
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    padding: 16px 0px;
+    height: 100%;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    position: relative;
+    right: 7%;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logo img {
+    position: absolute;
+    left: 8%;
+    top: 1%;
+    width: 190px;
+    height: auto;
+}
+
+.logo i {
+    font-size: 23px;
+    position: absolute;
+    position: absolute;
+    left: 22%;
+    top: 20px;
+    z-index: 1;
+
+}
+
+input {
+    padding: 9px 20px;
+    width: 45%;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    left: 0;
+    font-weight: 500;
+    background-color: rgba(59, 131, 246, 0.093);
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*Body*/
+
+.top {
+    width: 83%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.top-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+}
+
+.top-card {
+    text-align: center;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.top-two {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.top-three {
+    text-align: center;
+}
+
+.top-three img {
+    width: 20.7%;
+    padding: 0px 3px;
+    height: 100%;
+}
+
+.center-card {
+    width: 83%;
+    background-color: #ffffff;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.card {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.card-dress {
+    background-color: rgba(211, 211, 211, 0.537);
+    height: 290px;
+    padding: 10px;
+    margin: 13px 2px;
+    transition: all 1s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-dress img {
+    width: 200px;
+    height: auto;
+    background-position: center;
+    margin: 10px 0px;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+.card-dress p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card-dress :nth-child(3) {
+    padding-top: 6px;
+    font-size: 17px;
+}
+
+.card-dress:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.card-man img {
+    width: 215px;
+    height: 300px;
+    background-position: center;
+    margin: 10px 0px;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+.center-card h2 {
+    padding-top: 1%;
+    padding-left: 2%;
+
+}
+
+.card-man p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card-man :nth-child(3) {
+    padding-top: 6px;
+    font-size: 17px;
+}
+
+.card-man {
+    background-color: rgba(211, 211, 211, 0.537);
+    height: 400px;
+    padding: 10px;
+    margin: 13px 9px;
+    transition: all 1s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-man:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.top-three {
+    margin: 10px 0px;
+}
+
+.top-two img {
+    width: 83%;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    background-color: #ffffff;
+    width: 40%;
+    padding: 10px 0px;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.last button {
+    background-color: rgb(66, 122, 233);
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.last button:hover {
+    background-color: rgb(66, 122, 233, 0.8);
+}
+
+.last p {
+    padding: 5px 10px;
+}
+
+.last :nth-child(2) {
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgb(66, 122, 233);
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(66, 122, 233, 0.8)
+}
+
+.last p:hover {
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgb(66, 122, 233);
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(66, 122, 233, 0.8)
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    color: #878787;
+}
+
+.last-footer {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer-card h3 {
+    font-size: 12px;
+    margin-bottom: 12px
+}
+
+.footer-card a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 0px;
+}
+
+.footer-card:nth-child(3) h3 {
+    position: relative;
+    top: -15px;
+}
+
+hr {
+    width: 93%;
+    margin: auto;
+    height: 0.5px
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.footer-nav ul li a {
+    color: #878787;
+    padding: 0 43px;
+}
